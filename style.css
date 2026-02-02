@@ -21,6 +21,8 @@
     --main-color: #47FFAF;
 }
 
+/*---index.html---*/
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -502,3 +504,48 @@ span {
         margin-top: 2rem;
     }
 }
+
+/*---coding.html---*/
+
+.codingbody h2 {
+    font-size: 2.6rem;
+    margin-bottom: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.codingbody-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.codingbody-container .codingbody-box {
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+}
+
+.codingbody-box p {
+    font-size: 2.4rem;
+    margin: 1rem 0 3rem;
+}
+
+.codingbody-box img {
+    width: 50vw;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+.codingbody-box .btn {
+    margin-left: 135rem;
+}
+
+/*aboutme.html*/
+
