@@ -305,6 +305,10 @@ span {
     margin-bottom: 3rem;
 }
 
+.contact h3 {
+    font-size: 2.4rem;
+}
+
 .contact form {
     max-width: 70rem;
     margin: 1rem auto;
@@ -547,5 +551,87 @@ span {
     margin-left: 135rem;
 }
 
-/*aboutme.html*/
+
+/*---aboutme.html---*/
+
+.aboutme-content h2{
+    font-size: 2.6rem;
+    margin-bottom: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aboutme-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.aboutme-container .aboutme-box {
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+}
+
+.aboutme-box p {
+    font-size: 2.4rem;
+    margin: 1rem 0 3rem;
+}
+
+.aboutme-box h3 {
+    font-size: 5rem;
+}
+
+.aboutme-box h2 {
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+}
+
+.aboutme-box img {
+    width: 50%;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+.aboutme-box .btn {
+    margin-left: 5rem;
+}
+
+/*---3D modelling.html---*/
+
+.modelling-content h2 {
+    font-size: 2.6rem;
+    margin-bottom: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.modelling-container {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.modelling-container .modelling-box {
+     flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+}
+
+.modelling-box h3 {
+    font-size: 2.4rem;
+    margin: 1rem 0 3rem;
+}
 
