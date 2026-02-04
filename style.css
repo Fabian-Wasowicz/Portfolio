@@ -644,12 +644,46 @@ span {
     width: 40%;
     margin-bottom: 2rem;
     margin-right: 2rem;
+    border-radius: 2rem;
 }
 
 .modelling-rest img {
     width: 30%;
     margin-bottom: 2rem;
     margin-right: 2rem;
+    border-radius: 2rem;
+}
+
+/*---level design.html---*/
+
+.leveldesign-content h2{
+    font-size: 2.6rem;
+    margin-bottom: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.leveldesign-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.leveldesign-container .leveldesign-box{
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+}
+
+.leveldesign-box h3{
+    font-size: 4rem;
+    margin: 1rem 0 3rem;
 }
 
 /*---Timetrix.html---*/
@@ -697,4 +731,48 @@ span {
 .timetrix-box video{
     width: 50%;
     border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+/*---tlk.html---*/
+
+.tlk-content h2{
+    font-size: 2.6rem;
+    margin-bottom: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tlk-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.tlk-container .tlk-box{
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+}
+
+.tlk-box h3{
+    font-size: 2.6rem;
+    margin: 1rem 0 3rem;
+}
+
+.tlk-box p{
+    font-size: 2.4rem;
+    margin: 1rem 0 3rem;
+}
+
+.tlk-box video{
+    width: 50%;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
 }
