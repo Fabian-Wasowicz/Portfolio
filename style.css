@@ -594,9 +594,10 @@ span {
 }
 
 .aboutme-box img {
-    width: 50%;
+    width: 25%;
     border-radius: 2rem;
     margin-bottom: 2rem;
+    margin-right: 2rem;
 }
 
 .aboutme-box .btn {
@@ -775,4 +776,57 @@ span {
     width: 50%;
     border-radius: 2rem;
     margin-bottom: 2rem;
+}
+
+/*---AI project.html---*/
+
+.aiproject-content h2{
+    font-size: 2.6rem;
+    margin-bottom: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aiproject-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.aiproject-container .aiproject-box{
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+}
+
+.aiproject-box h3{
+    font-size: 2.4rem;
+    margin: 1rem 0 3rem;
+}
+
+.aiproject-box h2{
+    font-size: 3rem;
+    margin: 1rem 0 3rem;
+}
+
+.aiproject-box p{
+    font-size: 2.4rem;
+    margin: 1rem 0 3rem;
+}
+
+.aiproject-box video{
+    width: 50%;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+.aiproject-box img{
+    width: 40%;
+    border-radius: 2rem;
 }

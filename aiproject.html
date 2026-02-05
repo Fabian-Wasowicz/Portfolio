@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI project</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="aiproject">
+        <div class="aiproject-content">
+            <h2><span>AI project</span></h2>
+            <div class="aiproject-container">
+                <div class="aiproject-box">
+                    <h3>This project was one I used to learn new systems and mechanics, namely Unity's Navmesh system used for AIs. Another mechanic I implemented was doors that only opened once the player has completed a certain task. In this case, the player needed to find and destroy a number of orbs.</h3>
+                    <h2><span>AI navigation</span></h2>
+                    <p>The navmesh agent is designed to follow the player, while avoiding obstacles such as walls. The map is designed like a maze with many tight corners, causing a stressful situation where the player doesn't know if the ai will be waiting for them behind a wall.</p>
+                    <video controls>
+                        <source src="Videos/AI navigation video.mp4" type="video/mp4">
+                    </video>
+                    <h2><span>Door opening</span></h2>
+                    <p>In order to open the door to the next area, the player must destroy all orbs in a given area to advance.</p>
+                    <video controls>
+                        <source src="Videos/Door opening.mp4" type="video/mp4">
+                    </video>
+                    <p>This was fairly simple to code as I used tags and a script to check how many object with a certain tag existed in the scene. If the number of objects was zero, the door object was destroyed.</p>
+                    <img src="images/Door open code.png" alt="">
+                    <h2><span>animations</span></h2>
+                        <p>This project was the first time i delved into more visual aspects of game design, such as animation and VFX. Shooting the gun will cause a recoil animation, while reloading it will make the gun move down. When shooting, there is also a muzzle flash that appears for a split second.</p>
+                        <video controls>
+                            <source src="Videos/Gun animation.mp4" type="video/mp4">
+                        </video>
+                        <p>The animator was fairly tricky for me to figure out, due to it being my first time but I eventually got the hang of it.</p>
+                        <img src="images/Animator screenshot.png" alt="">
+                        <p>Overall, I learnt plenty of valuable tools and mechanics thanks to this project.</p>
+                        <a href="index.html#portfolio" class="btn">Go back</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
