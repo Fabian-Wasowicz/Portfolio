@@ -541,6 +541,11 @@ span {
     margin: 1rem 0 3rem;
 }
 
+.codingbody-box h2{
+    font-size: 3rem;
+    margin: 1rem 0 3rem;
+}
+
 .codingbody-box img {
     width: 50vw;
     border-radius: 2rem;
